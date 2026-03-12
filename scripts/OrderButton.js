@@ -6,9 +6,9 @@ const handlePlaceOrder = (clickEvent) => {
     }
 }
 
-export const OrderButton = () => {
-    document.addEventListener("click", handlePlaceOrder)
+document.addEventListener("click", handlePlaceOrder)
 
+export const OrderButton = () => {
     return `
     <article class="order">
     <button id='order-button'>Place Order</button>
